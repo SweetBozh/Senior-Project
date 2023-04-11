@@ -1,3 +1,102 @@
+## Page List
+
+- [Login Page]()
+  * Login (username, password / Google / Facebook / Email)
+  * `Register Page`
+  * `Forget Password Page`
+
+- [Register]()
+  * username
+  * password
+  * confirm password
+  * email
+  * full name
+
+- [Forget Password]()
+  * email
+
+- [Home Page]()
+  * Plan Today Couresal
+    - Plan Today Card
+      - Plan name
+      - `Plan Today Page`
+      - Start Button
+      - Close Button
+  * Search Bar (Place / User / Plan) - *Call Autocomplete API*
+    - `Place Page`
+    - `User Page`
+    - `Plan Page`
+  * Recommended User
+    - `User Page`
+    - Detail
+      - User's name
+      - Photo
+      - Followers amount
+  * Recommended Place
+    - `Place Page`
+    - Detail
+      - Place name
+      - Short Location
+      - Photo
+      - Rating
+  * `My Profile Page`
+  * `My Plans Page`
+  * `Create Plan Page`
+
+- [My Plan Page]()
+  * Search Bar (My plan)
+  * Plan Card
+    * `Plan Page`
+    * Delete Plan Button
+    * Custom Plan Button
+    * Status (Planning, Starting, End, Late)
+  * `Create Plan Page`
+
+- [Plan Today Page]()
+  * /*Custom Plan Here and Checkbox place already go*/
+
+- [Plan Page]()
+  * /*Custom Plan Here*/
+
+- [Place Page]()
+  * Search Bar (Place)
+    - `Place Page`
+  * Place Detail Page
+    - Like Button
+    - Pinned Button
+    - Information
+      * Like amount
+      * Already Visited
+      * Description
+      * Photo
+      * Rating
+      * Open - Close Time
+      * Tel `(ดึง Google API, copy พาไปหน้าโทร)`
+    - Add to Trip Button
+    - Share Button
+    - `View Goole Map Page`
+    - Review Place`(คนยังไม่ไปก็มารีวิวได้)`
+      * Description
+      * Photo
+      * Rating
+
+- [Create Plan Page]()
+  * /*Choose Main Option for plan Here*/
+  * Search Existing Plan
+  * Create My Own
+  * Recommended Place - *Call Nearby API*
+
+- [User Page]()
+  /*View Other User Profile*/
+
+- [My Profile Page]()
+  /*View My Profile including Setting*/
+  * Edit Profile
+  * `Setting Page`
+
+- [Setting Page]()
+  * 
+
 # User Function `(User ทำอะไรได้บ้าง)`
 
 - Register
@@ -14,6 +113,8 @@
 - Custom Plan
 - Review Place
 - View Profile
+
+- Notification
 
 # Function Details
 
@@ -81,6 +182,7 @@
 ## Plan today `Pattaya Plan, Day 1 2 3 4`
 
 - Place List (เลือก Review จากลิสต์สถานที่)
+- checkbox for place already gone
 - add place
 - remove place
 - Move place to day....
@@ -89,7 +191,6 @@
 - Destination จังหวัดเปลี่ยนตาม Place สุดท้ายของ Plan ใน Day สุดท้าย
 
 ## Create Plan `สร้างแพลนด้วยตนเอง เพิ่มลงใน {ฐานข้อมูลแพลน}`
-
 ### Search Existing Plan `เที่ยวตามแพลนคนอื่นที่มีอยู่แล้ว Fork เป็น My Plan แล้วไป Custom ต่อได้`
 
 - (optional) เลือก Source, Destination
@@ -104,7 +205,8 @@
 
 - เลือกสถานที่ต้นทางและปลายทาง `กรุงเทพ -> เขาใหญ่ สามารถปรับแต่งขณะ Custom ได้`
   * Add place on the way `กรุงเทพ -> สุพรรณ -> เขาใหญ่`
-- เลือกจำนวนวัน
+- ระบุเวลาเริ่มต้น - สิ้นสุด (optional)
+- เลือกจำนวนวัน 
 - (optional) เลือก `{
   * budget เงินเริ่มต้น
   * price level ระดับความแพงของสถานที่
@@ -152,6 +254,10 @@ Discuss next meeting
 - Hotel
 - Budgeting Plan
 
+## Notification
+- แจ้งเตือนก่อนวันไปเที่ยว 1 วัน
+- แจ้งเตือนเมื่อถึงวันไปเที่ยว / เลยวันไปเที่ยว (แต่ยังอยู่ในช่วงไปเที่ยว ให้รีบมาเข้าแอพเราเร็ว)
+- แจ้งเตือนเมื่อเลยวันสุดท้าย (คุณอยากทำไรกับแพลนหน่อยมั้ย เข้ามาเลื่อนวันไปเที่ยว)
 <!-- 
 - Testing หลังเที่ยว
 - เก็บข้อมูลจาก user เพื่อเอามาใช้ต่อ
