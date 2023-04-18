@@ -46,17 +46,51 @@
 - [My Plan Page]()
   * Search Bar (My plan)
   * Plan Card
-    * `Plan Page`
+    * `Plan Page (Custom Plan Button)`
     * Delete Plan Button
-    * Custom Plan Button
     * Status (Planning, Starting, End, Late)
   * `Create Plan Page`
 
 - [Plan Today Page]()
+  * Plan Today Card
+    - Plan Today Informations
+      * Title
+      * Date ( Start - End )
+      * Status
+    - `Plan Page`
   * /*Custom Plan Here and Checkbox place already go*/
 
 - [Plan Page]()
   * /*Custom Plan Here*/
+  * Optimize route
+  * Plan Card `( Order By Date )`
+    - Plan Information
+      * Title
+      * Date
+      * Status
+      * Setting
+        - Plan Type (Autoplan or Selfplan)
+        - Level price
+        - Budget
+    - Place planned card
+      * Order Place
+      * Photo
+      * Name
+      * Delete
+      * Change Date
+        - From Date
+        - To Date
+      * ~~Check Box~~ `( Disable when not today plan )`
+      * ## ( /*Place Page*/ )
+    - Recommended Place Card - *Call Nearby API*
+      * Recommended Place Information
+        - Photo
+        - Name
+        - (Likes amount)
+        - (Reviews amount)
+      * `Place Page`
+      * Add to plan button
+  * (Save)
 
 - [Place Page]()
   * Search Bar (Place)
@@ -71,32 +105,85 @@
       * Photo
       * Rating
       * Open - Close Time
-      * Tel `(ดึง Google API, copy พาไปหน้าโทร)`
+      * Tel `(ดึง Google API, Copy พาไปหน้าโทร)`
     - Add to Trip Button
     - Share Button
     - `View Goole Map Page`
-    - Review Place`(คนยังไม่ไปก็มารีวิวได้)`
-      * Description
+    - `Review Place Page (คนยังไม่ไปก็มารีวิวได้)`
+      
+- [Review Place Page]()
+  * Description
+  * Photo
+  * Rating
+  * Like amount
+  * Comment card
+    - Action
+      * Report
+      * Edit `(Owner Only)`
+    - Comment user's information
       * Photo
-      * Rating
+      * Name
+    - Comment Information
+      * likes amount
+      * Description
 
 - [Create Plan Page]()
   * /*Choose Main Option for plan Here*/
+  * Mandatory setting
+    - Source
+    - Destination
+    - Plan
+      * Selfplan `(Default)`
+      * Autoplan
+  * Optional setting
+    - Level price, Budget
   * Search Existing Plan
   * Create My Own
-  * Recommended Place - *Call Nearby API*
 
-- [User Page]()
-  /*View Other User Profile*/
+- [User Page]() /*View Other User Profile*/
+  * User's Information
+    - Photo
+    - Name
+    - Username
+    - Followers amount
+    - Reviews amount
+  * (Place user post)
+    - Photo
+    - Description
+  * User's Plan Card
+    - Photo
+    - Title
+    - Number of day
+    - `Plan Page ( View only )`
+  * `Review Place Page ( View user's review )`
+
 
 - [My Profile Page]()
-  /*View My Profile including Setting*/
-  * Edit Profile
+  * ## /*User Page*/
+  * `Edit Profile Page`
   * `Setting Page`
 
-- [Setting Page]()
-  * 
+- [Edit Profile Page]()
+  * User's Information
+    - Photo
+    - Name
+    - LastName
+    - Username
+    - Email
+    - birthday
 
+- [Setting Page]()
+  * # Let Discuss
+  * `User's Preference Page`
+
+- [User's Preferences Page]()
+  * (Format)
+    - (Date format)
+    - (Distance format)
+    - (Time format)
+  * Place type card
+    - Name
+    - Selected button
 # User Function `(User ทำอะไรได้บ้าง)`
 
 - Register
