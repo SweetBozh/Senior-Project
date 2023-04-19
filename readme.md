@@ -6,20 +6,30 @@
   * `Forget Password Page`
 
 - [Register]()
-  * username
-  * password
-  * confirm password
-  * email
-  * full name
+  * Username
+  * Password
+  * Confirm password
+  * Email
+  * Firstname
+  * Lastname
+  * Birthday
+  * `Preference Page ( register )`
 
 - [Forget Password]()
-  * email
+  * Email
+
+- [Preference Page]()
+  * Place type choice
+  * Skip Button
+  * Save Button
 
 - [Home Page]()
   * Plan Today Couresal
     - Plan Today Card
-      - Plan name
-      - `Plan Today Page`
+      - Plan Information
+        * Plan name
+        * Date ( Start - End )
+      - `Plan Page`
       - Start Button
       - Close Button
   * Search Bar (Place / User / Plan) - *Call Autocomplete API*
@@ -43,24 +53,46 @@
   * `My Plans Page`
   * `Create Plan Page`
 
-- [My Plan Page]()
+- [My Plans Page]()
   * Search Bar (My plan)
-  * Plan Card
-    * `Plan Page`
+  * Plan Card `( Order By Date )`
+    * `Plan Page (Custom Plan Button)`
     * Delete Plan Button
-    * Custom Plan Button
     * Status (Planning, Starting, End, Late)
   * `Create Plan Page`
 
-- [Plan Today Page]()
-  * /*Custom Plan Here and Checkbox place already go*/
-
 - [Plan Page]()
   * /*Custom Plan Here*/
+  * Optimize route
+  * Open Google Map Button
+  * Plan Information `( Editable )`
+    - Title
+    - Date
+    - Status
+    - Setting
+      * Plan Type (Autoplan or Selfplan)
+      * Level price
+  * Day Card `( Order By Date User can choose day to view )`
+    - Place card
+      * Order Place
+      * Photo
+      * Name
+      * Delete
+      * Move to another day
+        - To Day
+      * Time `( Optional )`
+      * (Check Box) `( Disable when not today plan )`
+      * `Place Information Page ( Pop up )`
+    - Recommended Place Card - *Call Nearby API*
+      * Recommended Place Information
+        - Photo
+        - Name
+        - Likes amount
+        - Reviews amount
+      * `Place Information Page ( Pop up )`
+      * Add to plan button
 
-- [Place Page]()
-  * Search Bar (Place)
-    - `Place Page`
+- [Place Information Page]()
   * Place Detail Page
     - Like Button
     - Pinned Button
@@ -70,33 +102,107 @@
       * Description
       * Photo
       * Rating
+      * Level price
       * Open - Close Time
-      * Tel `(ดึง Google API, copy พาไปหน้าโทร)`
-    - Add to Trip Button
+      * Tel `(ดึง Google API, Copy พาไปหน้าโทร)`
     - Share Button
-    - `View Goole Map Page`
-    - Review Place`(คนยังไม่ไปก็มารีวิวได้)`
+  * Show location on Google Map Button
+
+- [Place Page]()
+  * Place Detail Page
+    - Like Button
+    - Pinned Button
+    - Information
+      * Like amount
+      * Already Visited
       * Description
       * Photo
       * Rating
+      * Level price
+      * Open - Close Time
+      * Tel `(ดึง Google API, Copy พาไปหน้าโทร)`
+    - Add to Trip Button
+    - Share Button
+    - `View Goole Map Page`
+    - `Review Place Page (คนยังไม่ไปก็มารีวิวได้)`
+      
+- [Review Place Page]()
+  - Action
+    * Report
+    * Edit `( Owner Only )`
+    * Delete `( Owner Only )`
+  * Description
+  * Photo
+  * Rating
+  * Like amount
+  - Review user's information
+    * Photo
+    * Name
+    * Badge `( Bronze, Silver, Gold )`
 
 - [Create Plan Page]()
   * /*Choose Main Option for plan Here*/
-  * Search Existing Plan
-  * Create My Own
-  * Recommended Place - *Call Nearby API*
+  * Mandatory setting
+    - Source
+    - Destination
+    - Plan
+      * Selfplan `( Default )`
+      * Autoplan
+  * Optional setting
+    - Level price `( Avg. if not select )`
+    - Specific type
+  * Suggest Existing Plan 
+    - Rating
+    - Level price `( If choose option )`
+    - Specific type `( If choose option )`
+  * `Plan Page ( Create Button )`
 
-- [User Page]()
-  /*View Other User Profile*/
+- [User Page]() /*View Other User Profile*/
+  * User's Information
+    - Photo
+    - FirstName
+    - Username
+    - Followers amount
+    - Reviews amount
+    - Badge
+  * Place user post
+    - Photo
+    - Description
+  * User's Plan Card
+    - Photo
+    - Title
+    - Number of day
+    - `Plan Page ( View only )`
+  * `Review Place Page ( View user's review )`
+
 
 - [My Profile Page]()
-  /*View My Profile including Setting*/
-  * Edit Profile
+  * `User Page ( Editable )`
+  * `Edit Profile Page`
   * `Setting Page`
 
-- [Setting Page]()
-  * 
+- [Edit Profile Page]()
+  * User's Information
+    - Photo
+    - FirstName
+    - LastName
+    - Username
+    - Email
+    - Birthday
 
+- [Setting Page]()
+  * `User's Preference Page`
+  * `About us`
+  * `Log out`
+
+- [User's Preferences Page]()
+  * (Format)
+    - (Date format)
+    - (Distance format)
+    - (Time format)
+  * Place type card
+    - Name
+    - Selected button
 # User Function `(User ทำอะไรได้บ้าง)`
 
 - Register
