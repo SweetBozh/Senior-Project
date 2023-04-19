@@ -63,6 +63,7 @@
 
 - [Plan Page]()
   * /*Custom Plan Here*/
+  * Toggle Button `( Private / Public )`
   * Optimize route
   * Open Google Map Button
   * Plan Information `( Editable )`
