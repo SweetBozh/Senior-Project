@@ -127,7 +127,7 @@
     - `View Goole Map Page`
     - `Review Place Page (คนยังไม่ไปก็มารีวิวได้)`
       
-- [Review Place Page]()
+- [Place Review Page]()
   * Action
     - Report
     - Edit `( Owner Only )`
