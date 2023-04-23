@@ -69,7 +69,7 @@
   * Plan Information `( Editable )`
     - Title
     - Date
-    - Status
+    - Status (Planning, Starting, End, Late)
     - Setting
       * Plan Type (Autoplan or Selfplan)
       * Level price
