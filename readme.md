@@ -166,7 +166,7 @@
     - Followers amount
     - Reviews amount
     - Badge
-  * Place user post
+  * User's Post
     - Photo
     - Description
   * User's Plan Card
