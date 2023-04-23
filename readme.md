@@ -72,7 +72,7 @@
     - Status (Planning, Starting, End, Late)
     - Setting
       * Plan Type (Autoplan or Selfplan)
-      * Level price `( If no level price option, automatically calculate level price from places plan  )`
+      * Price Level `( If no Price Level option, automatically calculate Price Level from places plan  )`
   * Day Card `( Order By Date User can choose day to view )`
     - Place card
       * Order Place
@@ -103,7 +103,7 @@
       * Description
       * Photo
       * Rating
-      * Level price
+      * Price Level
       * Open - Close Time
       * Tel `(ดึง Google API, Copy พาไปหน้าโทร)`
     - Share Button
@@ -119,7 +119,7 @@
       * Description
       * Photo
       * Rating
-      * Level price
+      * Price Level
       * Open - Close Time
       * Tel `(ดึง Google API, Copy พาไปหน้าโทร)`
     - Add to Trip Button
@@ -150,11 +150,11 @@
       * Selfplan `( Default )`
       * Autoplan
   * Optional setting
-    - Level price
+    - Price Level
     - Specific type
   * Suggest Existing Plan 
     - Rating
-    - Level price `( If choose option )`
+    - Price Level `( If choose option )`
     - Specific type `( If choose option )`
   * `Plan Page ( Create Button )`
 
