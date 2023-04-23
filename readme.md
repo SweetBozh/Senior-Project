@@ -12,7 +12,7 @@
   * Email
   * Firstname
   * Lastname
-  * Birthday
+  * Birthday 
   * `Preference Page ( register )`
 
 - [Forget Password]()
@@ -128,10 +128,10 @@
     - `Review Place Page (คนยังไม่ไปก็มารีวิวได้)`
       
 - [Review Place Page]()
-  - Action
-    * Report
-    * Edit `( Owner Only )`
-    * Delete `( Owner Only )`
+  * Action
+    - Report
+    - Edit `( Owner Only )`
+    - Delete `( Owner Only )`
   * Description
   * Photo
   * Rating
@@ -190,7 +190,11 @@
     - Username
     - Email
     - Birthday
-
+    - Addresses
+      * Sub district
+      * District
+      * Province
+      * Postal Code
 - [Setting Page]()
   * `User's Preference Page`
   * `About us`
@@ -206,21 +210,23 @@
     - Selected button
 # User Function `(User ทำอะไรได้บ้าง)`
 
-- Register
 - Login
-- Search Place
+- Register
+- Forget Password
+- Preference
+- Search
 - Recommended User
 - Recommended Place
-- My Plans
+- Place Information
+- Place Review
+- View Profile
+- Edit Profile
+- Plan List
 - Plan Today
 - View Plan
 - Create Plan
-- Search Existing Plan
+- Edit Plan
 - Delete Plan
-- Custom Plan
-- Review Place
-- View Profile
-
 - Notification
 
 # Function Details
