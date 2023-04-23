@@ -72,7 +72,7 @@
     - Status (Planning, Starting, End, Late)
     - Setting
       * Plan Type (Autoplan or Selfplan)
-      * Level price
+      * Level price `( If no level price option, automatically calculate level price from places plan  )`
   * Day Card `( Order By Date User can choose day to view )`
     - Place card
       * Order Place
