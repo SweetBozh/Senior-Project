@@ -150,7 +150,7 @@
       * Selfplan `( Default )`
       * Autoplan
   * Optional setting
-    - Level price `( Avg. if not select )`
+    - Level price
     - Specific type
   * Suggest Existing Plan 
     - Rating
