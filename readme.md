@@ -1,6 +1,7 @@
 # Diagrams
 
 ![ERDiagram_img](./diagram/SeniorProject-ERD.png)
+![UseCaseDiagram_img](./diagram/SeniorProject-UseCaseDiagram.png)
 
 ## Page List
 
