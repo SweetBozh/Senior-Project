@@ -1,3 +1,7 @@
+# Diagrams
+
+![ERDiagram_img](./diagram/SeniorProject-ERD.png)
+
 ## Page List
 
 - [Login Page]()
